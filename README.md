@@ -1,6 +1,8 @@
 # The Josephus Problem
 A famous (albeit morbid) problem from history. You may read more about it at: https://en.wikipedia.org/wiki/Josephus_problem
 
+The starter code for this project is available at: https://github.com/Pingry-DS/Josephus-StarterCode
+
 ## The easier problem
 Solve the original Josephus problem where each soldier kills the soldier after him. Given a number of soldiers in the circle, tell me which soldier survives.
 
