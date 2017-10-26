@@ -3,11 +3,13 @@ import java.lang.Math;
 public class EasyJoe {
 
   public static void main(String[] args) {
-    int num = Integer.parseInt(args[0]);
-    int multiple;
+    long num = Long.parseLong(args[0]);
+    long multiple;
     double answer = 0;
-    multiple = (int) (Math.log10(num) / Math.log10(2));
+    multiple = (long) (Math.log10(num) / Math.log10(2));
+    System.out.println(multiple);
     answer = num - Math.pow(2, multiple);
+    System.out.println((long) answer);
     answer = answer * 2 + 1;
 
     /*
@@ -20,7 +22,7 @@ public class EasyJoe {
     }
     */
 
-    System.out.println("Soldier #" + (int) answer + " survives");
+    System.out.println("Soldier #" + (long) answer + " survives");
 
   }
 
